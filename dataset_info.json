@@ -1,0 +1,26 @@
+{
+  "mind": {
+    "file_name": "data/processed/mind_train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "mind_val": {
+    "file_name": "data/processed/mind_val.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "mind_test": {
+    "file_name": "data/processed/mind_test.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

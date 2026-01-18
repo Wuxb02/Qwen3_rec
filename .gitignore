@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_temp
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# 模型文件 (体积过大,不应提交到 Git)
+Qwen/
+*.bin
+*.safetensors
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+*.pb
+
+# 训练输出和保存的模型
+saves/
+output/
+outputs/
+checkpoint*/
+runs/
+
+# 合并后的模型
+merged_models/
+
+# 评估结果
+evaluation_results.json
+evaluation_results_vllm.json
+
+# 日志文件
+*.log
+logs/
+wandb/
+tensorboard/
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 环境配置
+.env
+.env.local
+*.secret
+
+# 缓存
+.cache/
+*.cache
+transformers_cache/
+huggingface/
+
+# PDF 文档 
+*.pdf
+
+# 其他
+*.orig
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.coverage
+htmlcov/
+.claude/
+
+
+# 数据
+data/

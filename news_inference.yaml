@@ -1,0 +1,18 @@
+### model
+model_name_or_path: ./Qwen/Qwen3-8B
+adapter_name_or_path: ./saves/qwen3_mind_news_recommend # 指向你训练好的 LoRA 权重
+finetuning_type: lora
+
+### dataset
+dataset: mind_test      # 这里切换为测试集
+dataset_dir: ./
+dataset_info: dataset_info.json
+template: qwen
+cutoff_len: 1024
+overwrite_cache: true
+
+### predict
+do_predict: true        # 开启预测模式
+predict_with_generate: true
+output_dir: ./saves/qwen3_mind_news_recommend/test_results
+per_device_eval_batch_size: 1
